@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}
+.nav-logo i{
+    color: rgb(235, 230, 230);
+    font-size: 50px;
+    padding-top: 15px;
+}
+.content-nav-logo{
+    color: rgb(184, 24, 24);
+    cursor: pointer;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.nav-a a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 80px;
+    padding: 5px 20px 5px 20px;
+}
+.nav-a a:hover{
+    color: white;
+    background-color: rgb(163, 46, 46);
+}
+/* 2nd section */
+.main-section{
+    height: 530px;
+    width: 100%;
+    background-color: rgb(163, 46, 46);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 247, 247);
+    font-weight: 700;
+    padding-top: 80px;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: rgb(230, 219, 219);
+    padding-top: 30px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: rgb(230, 219, 219);
+    padding-top: 5px;
+}
+.content-button{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 60px;
+}
+.content-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: rgb(230, 219, 219);
+    font-weight: 700;
+}
+.ask-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 40px;
+    width: 700px;
+    background-color: white;
+    margin-left: 300px;
+}
+.ask-form input{
+    height: 40px;
+    width: 600px;
+    border-style: none;
+    padding-left: 20px;
+}
+.ask-form a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(163, 46, 46);
+    color: black;
+    margin: 5px;
+}
